@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "testRoots": [
+    "tests/unit",
+    "tests/integration",
+    "tests/e2e"
+  ],
+  "defaultTimeoutMs": 10000,
+  "reporters": [
+    "console"
+  ],
+  "failOnEmptySuite": false,
+  "environment": "test"
+}
