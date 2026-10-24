@@ -1,0 +1,11 @@
+{
+  "name": "sample health-check scenario",
+  "description": "Example portable test case definition",
+  "steps": [
+    {
+      "id": "verify-status",
+      "kind": "assertion",
+      "expected": "healthy"
+    }
+  ]
+}
